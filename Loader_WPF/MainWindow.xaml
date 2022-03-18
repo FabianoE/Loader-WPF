@@ -1,0 +1,178 @@
+﻿<Window x:Class="Loader_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Loader_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="680" WindowStartupLocation="CenterScreen" WindowStyle="None" UseLayoutRounding="False" ResizeMode="NoResize" Foreground="{x:Null}" AllowsTransparency="True">
+    <Window.Background>
+        <SolidColorBrush Opacity="0" Color="White"/>
+    </Window.Background>
+
+    <Grid Name="_Grid" Margin="70,32,70,63" Width="540" Height="205" Background="#00000000">
+        <Grid Margin="0,-31,0,205" MouseLeftButtonDown="MoveForm">
+            <Grid.Background>
+                <ImageBrush ImageSource="Images/top-border.png"/>
+            </Grid.Background>
+            <Rectangle Name="btn_close_application" Margin="507,5,10,5" MouseDown="btn_close_application_MouseDown">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="Images/btn-close.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle Margin="10,5,507,5">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="Images/imperium-LM.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <TextBlock Name="txt_name_loader" Text="LOADER" Margin="39,9,104,6" Foreground="White" FontSize="10" FontFamily="Yu Gothic UI Semibold"/>
+        </Grid>
+
+        <!--#region Box Login -->
+        <Grid Name="_boxLogin" Visibility="Visible">
+            <Grid.Background>
+                <ImageBrush ImageSource="/Loader_WPF;component/Images/background-login.png"/>
+            </Grid.Background>
+
+            <TextBox Name="txt_username" TextChanged="txt_username_TextChanged" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="200" VerticalAlignment="Top" BorderBrush="{x:Null}" Height="30" Margin="131,39,119,0" Background="#FF191919" SelectionBrush="#FF0E0E0E" Foreground="#FF404040" TextDecorations="{x:Null}" FontSize="13" TextAlignment="Center" TextWrapping="Wrap"/>
+            <PasswordBox PasswordChar="*" x:Name="txt_password" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Center" Width="200" VerticalAlignment="Top" BorderBrush="{x:Null}" Height="30" Margin="131,74,119,0" Background="#FF191919" SelectionBrush="#FF0E0E0E" Foreground="#FF404040" FontWeight="Bold" FontSize="15"/>
+            <Grid Name="btn_login" Width="120" Height="50" Margin="170,140,160,15" MouseDown="btn_login_MouseDown">
+                <Grid.Background>
+                    <ImageBrush ImageSource="/Loader_WPF;component/Images/btn-large.png"/>
+                </Grid.Background>
+                <TextBlock Text="Entrar" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="13" FontFamily="Open Sans" FontWeight="Bold" Foreground="White"/>
+            </Grid>
+
+            <CheckBox Name="_login_checkbox" Click="_login_checkbox_Click" Content="Salvar infos" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="#FF2C2C2C" Background="#FF171717" BorderBrush="#FF080808" Margin="131,109,239,0"/>
+
+        </Grid>
+        <!--#endregion-->
+
+        <!--#region Validation-->
+        <Grid Name="_boxValidation" Visibility="Hidden">
+            <Grid.Background>
+                <ImageBrush ImageSource="/Loader_WPF;component/Images/background-login.png"/>
+            </Grid.Background>
+
+            <Rectangle Margin="30,19,30,84">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="Images/panel-error.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+
+            <Rectangle Margin="46,34,423,100">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="Images/icon-error.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+
+            <TextBlock x:Name="_boxValidation_Text" Foreground="White" FontSize="11" Margin="128,46,42,111" FontFamily="Yu Gothic UI Semibold"><Run Text="Para continuar é necessario fazer uma recarga.Clique no botão fazer "/><LineBreak/><Run Text="recarga, depois que seguir\ntodos os passos, clique em validar."/><LineBreak/><Run Text="Caso Ocorra mais erros entre em contato com o suporte."/></TextBlock>
+
+            <Grid Name="btn_recharge" Width="120" Height="50" Margin="150,140,270,15" MouseDown="btn_recharge_MouseDown">
+                <Grid.Background>
+                    <ImageBrush ImageSource="/Loader_WPF;component/Images/btn-large.png"/>
+                </Grid.Background>
+                <TextBlock Text="Fazer recarga" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="14" FontFamily="Roboto Cn" FontWeight="Bold" Foreground="White"/>
+            </Grid>
+
+            <Grid Name="btn_valid" Width="120" Height="50" Margin="275,140,145,15" MouseDown="btn_valid_MouseDown">
+                <Grid.Background>
+                    <ImageBrush ImageSource="/Loader_WPF;component/Images/btn-large.png"/>
+                </Grid.Background>
+                <TextBlock Text="Validar" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="14" FontFamily="Roboto Cn" FontWeight="Bold" Foreground="White"/>
+            </Grid>
+
+        </Grid>
+
+        <!--#endregion-->
+
+        <!--#region Box Message Erros -->
+        <Grid Name="_ErrorMsg" Margin="0,0,0,65" Visibility="Hidden" >
+            <Grid.Background>
+                <ImageBrush ImageSource="Images/background-login.png"/>
+            </Grid.Background>
+            <Rectangle Name="_ErrorMsg_Background" Margin="20,22,20,14">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="Images/panel-error.png"/>
+                </Rectangle.Fill>
+
+            </Rectangle>
+            <Rectangle Margin="38,40,430,30" Name="_ErrorMsg_Alert">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="Images/panel-sucess.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <TextBlock Name="_ErrorMsg_Text" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontFamily="Verdana" Margin="121,62,32,42" Height="36" Width="387" FontSize="10"/>
+        </Grid>
+        <!--#endregion-->
+
+        <!--#region Injection-Game-->
+
+        <Grid Name="_boxInjection" Width="680" Height="300" HorizontalAlignment="Center" Margin="-70,-31,-70,-64" Visibility="Visible">
+            <Grid Margin="0,0,0,268" MouseLeftButtonDown="MoveForm">
+                <Grid.Background>
+                    <ImageBrush ImageSource="Images/top-border.png"/>
+                </Grid.Background>
+                <Rectangle Width="28" Height="28" HorizontalAlignment="Left" Margin="10, 0">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Images/imperium-LM.png"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <TextBlock Name="_boxInjection_title" Text="Loader" Margin="43,8,354,8" Foreground="White" VerticalAlignment="Center" FontFamily="Yu Gothic UI Semibold"/>
+                <Rectangle Width="25" HorizontalAlignment="Right" Margin="0,5,10,5" MouseDown="btn_close_application_MouseDown">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Images/btn-close.png"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+            </Grid>
+
+            <Grid Margin="0,32,0,0">
+                <Grid.Background>
+                    <ImageBrush ImageSource="Images/background-login.png"/>
+                </Grid.Background>
+                <Rectangle Width="400" Height="74" Margin="0, 0, 0, 200" HorizontalAlignment="Center">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Images/panel-error.png"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <Rectangle Name="_boxInjection_MsgTop_Icon" Margin="157,17,483,211">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Images/loading-icon.png"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <TextBlock Name="_boxInjection_MsgTop" Text="MESSAGE" Foreground="White" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="225,8,156,0" Height="42" Width="299" FontSize="11" FontFamily="Yu Gothic UI Semibold" TextDecorations="{x:Null}" />
+                <ListView Margin="15,82,15,77" Name="_boxInjection_cheat_list" Width="650" Background="#141414" HorizontalContentAlignment="Center" Foreground="#FF9E9E9E" BorderThickness="2" ScrollViewer.CanContentScroll="False" BorderBrush="#00000000" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Auto" SelectionChanged="_selected_cheat">
+
+                    <ListView.View>
+                        <GridView ColumnHeaderContainerStyle="{StaticResource GridListCheat}">
+                            <GridViewColumn Header="Game" Width="215" DisplayMemberBinding="{Binding Game}"/>
+                            <GridViewColumn Header="Desenvoldedor" Width="215" DisplayMemberBinding="{Binding Desenvolvedor}" />
+                            <GridViewColumn Header="Status" Width="215" DisplayMemberBinding="{Binding Status}" />
+                            <GridViewColumn Header="ID" Width="0" DisplayMemberBinding="{Binding ID}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+                <Grid Name="btn_inject" Margin="0,191,551,26" MouseDown="btn_inject_MouseDown">
+                    <Rectangle>
+                        <Rectangle.Fill>
+                            <ImageBrush ImageSource="Images/btn-large.png"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <TextBlock Text="Injetar" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="13" FontFamily="Yu Gothic UI Semibold" Margin="42,14,41,13"/>
+                </Grid>
+                <ProgressBar Name="_boxInjection_progressbar" Margin="129,196,15,34" Width="536" Height="38" BorderBrush="{x:Null}" Value="90" ValueChanged="_boxInjection_progressbar_ValueChanged">
+                    <ProgressBar.Foreground>
+                        <ImageBrush ImageSource="Images/progressbar.png"/>
+                    </ProgressBar.Foreground>
+                    <ProgressBar.Background>
+                        <ImageBrush ImageSource="Images/background-progressbar.png"/>
+                    </ProgressBar.Background>
+
+                </ProgressBar>
+            </Grid>
+        </Grid>
+
+        <!--#endregion-->
+
+    </Grid>
+</Window>

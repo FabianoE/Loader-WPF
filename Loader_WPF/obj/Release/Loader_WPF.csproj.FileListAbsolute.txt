@@ -1,0 +1,60 @@
+C:\Users\danszjhonny\Desktop\Loader_WPF\Loader_WPF\bin\Release\Loader_WPF.exe.config
+C:\Users\danszjhonny\Desktop\Loader_WPF\Loader_WPF\bin\Release\Loader_WPF.exe
+C:\Users\danszjhonny\Desktop\Loader_WPF\Loader_WPF\bin\Release\Loader_WPF.pdb
+C:\Users\danszjhonny\Desktop\Loader_WPF\Loader_WPF\bin\Release\Newtonsoft.Json.dll
+C:\Users\danszjhonny\Desktop\Loader_WPF\Loader_WPF\bin\Release\Newtonsoft.Json.xml
+C:\Users\danszjhonny\Desktop\Loader_WPF\Loader_WPF\obj\Release\MainWindow.g.cs
+C:\Users\danszjhonny\Desktop\Loader_WPF\Loader_WPF\obj\Release\App.g.cs
+C:\Users\danszjhonny\Desktop\Loader_WPF\Loader_WPF\obj\Release\Loader_WPF_Content.g.cs
+C:\Users\danszjhonny\Desktop\Loader_WPF\Loader_WPF\obj\Release\Loader_WPF_MarkupCompile.cache
+C:\Users\danszjhonny\Desktop\Loader_WPF\Loader_WPF\obj\Release\Loader_WPF_MarkupCompile.lref
+C:\Users\danszjhonny\Desktop\Loader_WPF\Loader_WPF\obj\Release\App.baml
+C:\Users\danszjhonny\Desktop\Loader_WPF\Loader_WPF\obj\Release\MainWindow.baml
+C:\Users\danszjhonny\Desktop\Loader_WPF\Loader_WPF\obj\Release\Loader_WPF.g.resources
+C:\Users\danszjhonny\Desktop\Loader_WPF\Loader_WPF\obj\Release\Loader_WPF.Properties.Resources.resources
+C:\Users\danszjhonny\Desktop\Loader_WPF\Loader_WPF\obj\Release\Loader_WPF.csproj.GenerateResource.cache
+C:\Users\danszjhonny\Desktop\Loader_WPF\Loader_WPF\obj\Release\Loader_WPF.csproj.CoreCompileInputs.cache
+C:\Users\danszjhonny\Desktop\Loader_WPF\Loader_WPF\obj\Release\Loader_WPF.csproj.CopyComplete
+C:\Users\danszjhonny\Desktop\Loader_WPF\Loader_WPF\obj\Release\Loader_WPF.exe
+C:\Users\danszjhonny\Desktop\Loader_WPF\Loader_WPF\obj\Release\Loader_WPF.pdb
+C:\Users\danszjhonny\Desktop\Loader_WPF\Loader_WPF\obj\Release\Loader_WPF.csprojAssemblyReference.cache
+C:\Users\danszjhonny\Desktop\backup -05_07_2021\Loader_WPF\Loader_WPF\bin\Release\Loader_WPF.exe.config
+C:\Users\danszjhonny\Desktop\backup -05_07_2021\Loader_WPF\Loader_WPF\bin\Release\Loader_WPF.exe
+C:\Users\danszjhonny\Desktop\backup -05_07_2021\Loader_WPF\Loader_WPF\bin\Release\Loader_WPF.pdb
+C:\Users\danszjhonny\Desktop\backup -05_07_2021\Loader_WPF\Loader_WPF\bin\Release\Newtonsoft.Json.dll
+C:\Users\danszjhonny\Desktop\backup -05_07_2021\Loader_WPF\Loader_WPF\bin\Release\Newtonsoft.Json.xml
+C:\Users\danszjhonny\Desktop\backup -05_07_2021\Loader_WPF\Loader_WPF\obj\Release\Loader_WPF.csprojAssemblyReference.cache
+C:\Users\danszjhonny\Desktop\backup -05_07_2021\Loader_WPF\Loader_WPF\obj\Release\MainWindow.g.cs
+C:\Users\danszjhonny\Desktop\backup -05_07_2021\Loader_WPF\Loader_WPF\obj\Release\App.g.cs
+C:\Users\danszjhonny\Desktop\backup -05_07_2021\Loader_WPF\Loader_WPF\obj\Release\Loader_WPF_Content.g.cs
+C:\Users\danszjhonny\Desktop\backup -05_07_2021\Loader_WPF\Loader_WPF\obj\Release\Loader_WPF_MarkupCompile.cache
+C:\Users\danszjhonny\Desktop\backup -05_07_2021\Loader_WPF\Loader_WPF\obj\Release\Loader_WPF_MarkupCompile.lref
+C:\Users\danszjhonny\Desktop\backup -05_07_2021\Loader_WPF\Loader_WPF\obj\Release\App.baml
+C:\Users\danszjhonny\Desktop\backup -05_07_2021\Loader_WPF\Loader_WPF\obj\Release\MainWindow.baml
+C:\Users\danszjhonny\Desktop\backup -05_07_2021\Loader_WPF\Loader_WPF\obj\Release\Loader_WPF.g.resources
+C:\Users\danszjhonny\Desktop\backup -05_07_2021\Loader_WPF\Loader_WPF\obj\Release\Loader_WPF.Properties.Resources.resources
+C:\Users\danszjhonny\Desktop\backup -05_07_2021\Loader_WPF\Loader_WPF\obj\Release\Loader_WPF.csproj.GenerateResource.cache
+C:\Users\danszjhonny\Desktop\backup -05_07_2021\Loader_WPF\Loader_WPF\obj\Release\Loader_WPF.csproj.CoreCompileInputs.cache
+C:\Users\danszjhonny\Desktop\backup -05_07_2021\Loader_WPF\Loader_WPF\obj\Release\Loader_WPF.csproj.CopyComplete
+C:\Users\danszjhonny\Desktop\backup -05_07_2021\Loader_WPF\Loader_WPF\obj\Release\Loader_WPF.exe
+C:\Users\danszjhonny\Desktop\backup -05_07_2021\Loader_WPF\Loader_WPF\obj\Release\Loader_WPF.pdb
+C:\Users\danszjhonny\Desktop\sources\loader-source\Loader_WPF\bin\Release\Loader_WPF.exe.config
+C:\Users\danszjhonny\Desktop\sources\loader-source\Loader_WPF\bin\Release\Loader_WPF.exe
+C:\Users\danszjhonny\Desktop\sources\loader-source\Loader_WPF\bin\Release\Loader_WPF.pdb
+C:\Users\danszjhonny\Desktop\sources\loader-source\Loader_WPF\bin\Release\Newtonsoft.Json.dll
+C:\Users\danszjhonny\Desktop\sources\loader-source\Loader_WPF\bin\Release\Newtonsoft.Json.xml
+C:\Users\danszjhonny\Desktop\sources\loader-source\Loader_WPF\obj\Release\Loader_WPF.csprojAssemblyReference.cache
+C:\Users\danszjhonny\Desktop\sources\loader-source\Loader_WPF\obj\Release\MainWindow.g.cs
+C:\Users\danszjhonny\Desktop\sources\loader-source\Loader_WPF\obj\Release\App.g.cs
+C:\Users\danszjhonny\Desktop\sources\loader-source\Loader_WPF\obj\Release\Loader_WPF_Content.g.cs
+C:\Users\danszjhonny\Desktop\sources\loader-source\Loader_WPF\obj\Release\Loader_WPF_MarkupCompile.cache
+C:\Users\danszjhonny\Desktop\sources\loader-source\Loader_WPF\obj\Release\Loader_WPF_MarkupCompile.lref
+C:\Users\danszjhonny\Desktop\sources\loader-source\Loader_WPF\obj\Release\App.baml
+C:\Users\danszjhonny\Desktop\sources\loader-source\Loader_WPF\obj\Release\MainWindow.baml
+C:\Users\danszjhonny\Desktop\sources\loader-source\Loader_WPF\obj\Release\Loader_WPF.g.resources
+C:\Users\danszjhonny\Desktop\sources\loader-source\Loader_WPF\obj\Release\Loader_WPF.Properties.Resources.resources
+C:\Users\danszjhonny\Desktop\sources\loader-source\Loader_WPF\obj\Release\Loader_WPF.csproj.GenerateResource.cache
+C:\Users\danszjhonny\Desktop\sources\loader-source\Loader_WPF\obj\Release\Loader_WPF.csproj.CoreCompileInputs.cache
+C:\Users\danszjhonny\Desktop\sources\loader-source\Loader_WPF\obj\Release\Loader_WPF.csproj.CopyComplete
+C:\Users\danszjhonny\Desktop\sources\loader-source\Loader_WPF\obj\Release\Loader_WPF.exe
+C:\Users\danszjhonny\Desktop\sources\loader-source\Loader_WPF\obj\Release\Loader_WPF.pdb
